@@ -132,6 +132,9 @@ h6 {
   align-items: stretch;
   white-space: nowrap;
 }
+.sidebar-sticky nav ul li:hover {
+  background-color: #d1cece;
+}
 .sidebar-sticky nav ul li a span {
   width: 50px;
 }
@@ -260,7 +263,7 @@ footer {
   /* Height of navbar */
 }
 .sidebar-menu-active {
-  background: #0288d1 !important;
+  background: #3367D6 !important;
   color: white !important;
 }
 .cw-doc-image {
