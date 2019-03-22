@@ -160,7 +160,7 @@ h6 {
   margin-left: 20px;
 }
 .sidebar-sticky nav ul li a:hover {
-  color: #3367D6 !important;
+  /* color: #3367D6 !important;*/
 }
 .sidebar-sticky ul li.active1 > a,
 a[aria-expanded="true"] {

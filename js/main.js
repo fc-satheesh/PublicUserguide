@@ -1,17 +1,17 @@
 $(function(){
     console.log("document loaded");
-    $('#content').load('pages/p.html');
+    $('#content').load('pages/agents.html');
    
     $("#index").click(function(){
         $('#content').empty();
-        $("#content").load("pages/p.html");
+        $("#content").load("pages/agents.html");
       });
     
     
       $('#presence').click(function(){
            console.log('presence button clicked');
             $('#content').empty();
-            $('#content').load('p1.html');     
+            $('#content').load('pages/skills.html');     
         });
     
         $('.sidebar-menu-list').click(function () {
